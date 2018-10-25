@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="My blogs about robot">
 <meta property="og:description" content="#从零开始在hexo+github+阿里云域名下搭建博客 一、github page 设置####1、rep setting新建github rep ， 命名为&amp;lt;你的项目名&amp;gt;.github.io ####2、ssh setting进入用户设置setting，Personal settings下的SSH and GPG keys ，hit New SSH key 获取当前pc的ssh k">
 <meta property="og:locale" content="Zh">
-<meta property="og:updated_time" content="2018-10-24T05:23:40.595Z">
+<meta property="og:updated_time" content="2018-10-25T06:05:05.402Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="my blog">
 <meta name="twitter:description" content="#从零开始在hexo+github+阿里云域名下搭建博客 一、github page 设置####1、rep setting新建github rep ， 命名为&amp;lt;你的项目名&amp;gt;.github.io ####2、ssh setting进入用户设置setting，Personal settings下的SSH and GPG keys ，hit New SSH key 获取当前pc的ssh k">
@@ -179,9 +179,12 @@
 <h3 id="一、github-page-设置"><a href="#一、github-page-设置" class="headerlink" title="一、github page 设置"></a>一、github page 设置</h3><p>####1、rep setting<br>新建github rep ， 命名为&lt;你的项目名&gt;.github.io</p>
 <p>####2、ssh setting<br>进入用户设置setting，Personal settings下的SSH and GPG keys ，hit New SSH key</p>
 <p>获取当前pc的ssh key，获取方法见<br>粘贴获取到的key至github中</p>
-<p>####3、connect setting<br>打开安装后的git(默认安装)，选择你的本地git仓库(在想放置仓库的位置新建文件夹‘git-test’)<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/your rep.git</span><br></pre></td></tr></table></figure></p>
-<p>在git bash或终端中添加用户名和邮箱，<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"your name"</span></span><br><span class="line">$ git config --global user.email your email</span><br></pre></td></tr></table></figure></p>
-<p>####4、git setting<br>在项目目录下进行一下操作即可提交代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ git add .</span><br><span class="line">$ git status <span class="comment">#(查看修改的地方)</span></span><br><span class="line"></span><br><span class="line">$ git commit -m <span class="string">"your information about commit"</span> <span class="comment">#</span></span><br><span class="line">(必须添加说明)</span><br><span class="line">$ git push -u origin master （<span class="comment">#first push with '-u'）</span></span><br></pre></td></tr></table></figure></p>
+<p>####3、connect setting<br>打开安装后的git(默认安装)，选择你的本地git仓库(在想放置仓库的位置新建文件夹‘git-test’)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/your rep.git</span><br></pre></td></tr></table></figure>
+<p>在git bash或终端中添加用户名和邮箱，</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"your name"</span></span><br><span class="line">$ git config --global user.email your email</span><br></pre></td></tr></table></figure>
+<p>####4、git setting<br>在项目目录下进行一下操作即可提交代码：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ git add .</span><br><span class="line">$ git status <span class="comment">#(查看修改的地方)</span></span><br><span class="line"></span><br><span class="line">$ git commit -m <span class="string">"your information about commit"</span> <span class="comment">#</span></span><br><span class="line">(必须添加说明)</span><br><span class="line">$ git push -u origin master （<span class="comment">#first push with '-u'）</span></span><br></pre></td></tr></table></figure>
 <p>####5、Domain Name setting<br>在阿里云注册域名，根据自己要求选择套餐</p>
 <p>在域名控制台中选择域名解析，DNMA-www-10min-your rep’s name(e.g. robot-github.github.io)</p>
 <p>完成后打开github在项目setting中修改Github Pages中的Custom domain，添加你的域名并save</p>
@@ -190,7 +193,8 @@
 <p>####1、hexo install<br>hexo安装需要git和node.js，git一般ubuntu默认安装，windows下在前文已经安装完毕，则是需要安装Node.js，官方下载及教程如下：</p>
 <p>官方下载地址：<a href="https://nodejs.org/download/" target="_blank" rel="noopener">下载Node.js</a></p>
 <p>官方安装教程：<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">安装Node.js</a></p>
-<p>完成nodejs安装之后即可以安装hexo<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ <span class="built_in">cd</span> git-test  <span class="comment">#也即前文设置的文件夹目录下</span></span><br><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br><span class="line">$ hexo g  </span><br><span class="line">$ hexo s <span class="comment">#可以在http://localhost:4000/ 查看</span></span><br></pre></td></tr></table></figure></p>
+<p>完成nodejs安装之后即可以安装hexo</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ <span class="built_in">cd</span> git-test  <span class="comment">#也即前文设置的文件夹目录下</span></span><br><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br><span class="line">$ hexo g  </span><br><span class="line">$ hexo s <span class="comment">#可以在http://localhost:4000/ 查看</span></span><br></pre></td></tr></table></figure>
 <p>hexo g 即hexo generate ，运行此命令会生成静态文件，在public文件夹中</p>
 <p>hexo s 则会启动本地web服务，类似sublime的预览</p>
 <p>More info: <a href="https://hexo.io/docs.html" target="_blank" rel="noopener">官方文档</a></p>
@@ -302,6 +306,15 @@
 
   
 <nav id="article-nav">
+  
+    <a href="/2018/10/25/extra/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          extra
+        
+      </div>
+    </a>
   
   
     <a href="/2018/10/23/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
