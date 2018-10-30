@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://robot-rex.top/"/>
   <updated>2018-10-30T12:06:00.639Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://robot-rex.top/</id>
   
   <author>
     <name>Liu Xiao ~</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Setting the Shadowsocks</title>
-    <link href="http://yoursite.com/2018/10/26/Setting-the-Shadowsocks/"/>
-    <id>http://yoursite.com/2018/10/26/Setting-the-Shadowsocks/</id>
+    <link href="http://robot-rex.top/2018/10/26/Setting-the-Shadowsocks/"/>
+    <id>http://robot-rex.top/2018/10/26/Setting-the-Shadowsocks/</id>
     <published>2018-10-26T08:09:38.000Z</published>
     <updated>2018-10-30T12:06:00.639Z</updated>
     
@@ -27,17 +27,17 @@
     
     </summary>
     
-      <category term="wall" scheme="http://yoursite.com/categories/wall/"/>
+      <category term="wall" scheme="http://robot-rex.top/categories/wall/"/>
     
     
-      <category term="Shadowsocks" scheme="http://yoursite.com/tags/Shadowsocks/"/>
+      <category term="Shadowsocks" scheme="http://robot-rex.top/tags/Shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title>Video Capture with Kinect v1</title>
-    <link href="http://yoursite.com/2018/10/26/Video-Capture-with-Kinect-v1/"/>
-    <id>http://yoursite.com/2018/10/26/Video-Capture-with-Kinect-v1/</id>
+    <link href="http://robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/"/>
+    <id>http://robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/</id>
     <published>2018-10-26T07:23:06.000Z</published>
     <updated>2018-10-30T10:51:23.224Z</updated>
     
@@ -45,17 +45,17 @@
     
     </summary>
     
-      <category term="Ros" scheme="http://yoursite.com/categories/Ros/"/>
+      <category term="Ros" scheme="http://robot-rex.top/categories/Ros/"/>
     
     
-      <category term="Kinect" scheme="http://yoursite.com/tags/Kinect/"/>
+      <category term="Kinect" scheme="http://robot-rex.top/tags/Kinect/"/>
     
   </entry>
   
   <entry>
     <title>My Work about Outdoor Ros Car</title>
-    <link href="http://yoursite.com/2018/10/25/My-Work-about-Outdoor-Ros-Car/"/>
-    <id>http://yoursite.com/2018/10/25/My-Work-about-Outdoor-Ros-Car/</id>
+    <link href="http://robot-rex.top/2018/10/25/My-Work-about-Outdoor-Ros-Car/"/>
+    <id>http://robot-rex.top/2018/10/25/My-Work-about-Outdoor-Ros-Car/</id>
     <published>2018-10-25T10:45:39.000Z</published>
     <updated>2018-10-30T10:50:55.906Z</updated>
     
@@ -63,17 +63,17 @@
     
     </summary>
     
-      <category term="Ros" scheme="http://yoursite.com/categories/Ros/"/>
+      <category term="Ros" scheme="http://robot-rex.top/categories/Ros/"/>
     
     
-      <category term="Ros" scheme="http://yoursite.com/tags/Ros/"/>
+      <category term="Ros" scheme="http://robot-rex.top/tags/Ros/"/>
     
   </entry>
   
   <entry>
     <title>Information recorded</title>
-    <link href="http://yoursite.com/2018/10/25/Information-recorded/"/>
-    <id>http://yoursite.com/2018/10/25/Information-recorded/</id>
+    <link href="http://robot-rex.top/2018/10/25/Information-recorded/"/>
+    <id>http://robot-rex.top/2018/10/25/Information-recorded/</id>
     <published>2018-10-25T10:45:08.000Z</published>
     <updated>2018-10-25T10:45:08.653Z</updated>
     
@@ -86,8 +86,8 @@
   
   <entry>
     <title>My Work about VSLAM</title>
-    <link href="http://yoursite.com/2018/10/25/My-Work-about-VSLAM/"/>
-    <id>http://yoursite.com/2018/10/25/My-Work-about-VSLAM/</id>
+    <link href="http://robot-rex.top/2018/10/25/My-Work-about-VSLAM/"/>
+    <id>http://robot-rex.top/2018/10/25/My-Work-about-VSLAM/</id>
     <published>2018-10-25T10:43:37.000Z</published>
     <updated>2018-10-30T10:51:03.353Z</updated>
     
@@ -95,19 +95,19 @@
     
     </summary>
     
-      <category term="Ros" scheme="http://yoursite.com/categories/Ros/"/>
+      <category term="Ros" scheme="http://robot-rex.top/categories/Ros/"/>
     
     
-      <category term="SLAM" scheme="http://yoursite.com/tags/SLAM/"/>
+      <category term="SLAM" scheme="http://robot-rex.top/tags/SLAM/"/>
     
-      <category term="Ros" scheme="http://yoursite.com/tags/Ros/"/>
+      <category term="Ros" scheme="http://robot-rex.top/tags/Ros/"/>
     
   </entry>
   
   <entry>
     <title>extra</title>
-    <link href="http://yoursite.com/2018/10/25/extra/"/>
-    <id>http://yoursite.com/2018/10/25/extra/</id>
+    <link href="http://robot-rex.top/2018/10/25/extra/"/>
+    <id>http://robot-rex.top/2018/10/25/extra/</id>
     <published>2018-10-25T10:42:00.000Z</published>
     <updated>2018-10-30T11:28:26.212Z</updated>
     
@@ -115,17 +115,17 @@
     
     </summary>
     
-      <category term="extra" scheme="http://yoursite.com/categories/extra/"/>
+      <category term="extra" scheme="http://robot-rex.top/categories/extra/"/>
     
     
-      <category term="extra" scheme="http://yoursite.com/tags/extra/"/>
+      <category term="extra" scheme="http://robot-rex.top/tags/extra/"/>
     
   </entry>
   
   <entry>
     <title>my blog</title>
-    <link href="http://yoursite.com/2018/10/23/my-blog/"/>
-    <id>http://yoursite.com/2018/10/23/my-blog/</id>
+    <link href="http://robot-rex.top/2018/10/23/my-blog/"/>
+    <id>http://robot-rex.top/2018/10/23/my-blog/</id>
     <published>2018-10-23T12:40:11.000Z</published>
     <updated>2018-10-30T11:28:36.558Z</updated>
     
@@ -141,17 +141,17 @@
     
     </summary>
     
-      <category term="about blog" scheme="http://yoursite.com/categories/about-blog/"/>
+      <category term="about blog" scheme="http://robot-rex.top/categories/about-blog/"/>
     
     
-      <category term="How to build persinal blog" scheme="http://yoursite.com/tags/How-to-build-persinal-blog/"/>
+      <category term="How to build persinal blog" scheme="http://robot-rex.top/tags/How-to-build-persinal-blog/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/10/23/hello-world/"/>
-    <id>http://yoursite.com/2018/10/23/hello-world/</id>
+    <link href="http://robot-rex.top/2018/10/23/hello-world/"/>
+    <id>http://robot-rex.top/2018/10/23/hello-world/</id>
     <published>2018-10-23T11:21:17.941Z</published>
     <updated>2018-10-30T11:28:30.218Z</updated>
     
@@ -166,10 +166,10 @@
     
     </summary>
     
-      <category term="about blog" scheme="http://yoursite.com/categories/about-blog/"/>
+      <category term="about blog" scheme="http://robot-rex.top/categories/about-blog/"/>
     
     
-      <category term="hello World" scheme="http://yoursite.com/tags/hello-World/"/>
+      <category term="hello World" scheme="http://robot-rex.top/tags/hello-World/"/>
     
   </entry>
   
