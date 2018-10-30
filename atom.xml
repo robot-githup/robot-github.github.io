@@ -98,9 +98,9 @@
       <category term="Ros" scheme="http://yoursite.com/categories/Ros/"/>
     
     
-      <category term="Ros" scheme="http://yoursite.com/tags/Ros/"/>
-    
       <category term="SLAM" scheme="http://yoursite.com/tags/SLAM/"/>
+    
+      <category term="Ros" scheme="http://yoursite.com/tags/Ros/"/>
     
   </entry>
   
