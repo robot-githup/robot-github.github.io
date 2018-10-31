@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>My blogs about robot</title>
+  <title>The future , The present</title>
   
-  
+  <subtitle>I can feel U !</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://robot-rex.top/"/>
+  <link href="http://www.robot-rex.top/"/>
   <updated>2018-10-30T12:06:00.639Z</updated>
-  <id>http://robot-rex.top/</id>
+  <id>http://www.robot-rex.top/</id>
   
   <author>
-    <name>Liu Xiao ~</name>
+    <name>Xiao Xiao ~</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Setting the Shadowsocks</title>
-    <link href="http://robot-rex.top/2018/10/26/Setting-the-Shadowsocks/"/>
-    <id>http://robot-rex.top/2018/10/26/Setting-the-Shadowsocks/</id>
+    <link href="http://www.robot-rex.top/2018/10/26/Setting-the-Shadowsocks/"/>
+    <id>http://www.robot-rex.top/2018/10/26/Setting-the-Shadowsocks/</id>
     <published>2018-10-26T08:09:38.000Z</published>
     <updated>2018-10-30T12:06:00.639Z</updated>
     
@@ -27,35 +27,45 @@
     
     </summary>
     
-      <category term="wall" scheme="http://robot-rex.top/categories/wall/"/>
+      <category term="wall" scheme="http://www.robot-rex.top/categories/wall/"/>
     
     
-      <category term="Shadowsocks" scheme="http://robot-rex.top/tags/Shadowsocks/"/>
+      <category term="Shadowsocks" scheme="http://www.robot-rex.top/tags/Shadowsocks/"/>
     
   </entry>
   
   <entry>
     <title>Video Capture with Kinect v1</title>
-    <link href="http://robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/"/>
-    <id>http://robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/</id>
+    <link href="http://www.robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/"/>
+    <id>http://www.robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/</id>
     <published>2018-10-26T07:23:06.000Z</published>
-    <updated>2018-10-30T10:51:23.224Z</updated>
+    <updated>2018-10-31T02:41:54.709Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在跑离线ORBSLAM2，需要本地数据集。 手头靠谱点的相机暂时只有Kinect，还是一代。<br>因此基本方法就是使用kinect去截取每帧图片，保存到本地。 开源驱动libfreenect刚好提供了这一工具，驱动方式便选择libfreenect了。</p><h2 id="start"><a href="#start" class="headerlink" title="start"></a>start</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/OpenKinect/libfreenect</span><br><span class="line">$ <span class="built_in">cd</span> libfreenect</span><br><span class="line">$ mkdir build</span><br><span class="line">$ <span class="built_in">cd</span> build</span><br><span class="line">$ cmake .. </span><br><span class="line">$ make</span><br></pre></td></tr></table></figure><p>以上则是编译libfreenect的过程，README.md文件中也有相同的说明。</p><h2 id="record"><a href="#record" class="headerlink" title="record"></a>record</h2><p>编译完成之后其实就可以开始图片数据集采集了，在libfreenect下build/bin文件夹中可以找到fakenect-record二进制执行文件。运行之，得到提示</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">record [-h] [-ffmpeg] [-ffmpeg-opts &lt;option&gt;] &lt;target basename&gt;</span><br></pre></td></tr></table></figure><p>对于任务要求，我们只需要设置basename参数，也即是存放图片数据集的本地目录。</p><p>重新运行fakenect-record，即可在所选的路径下找到截取的一帧帧图片。</p>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;p&gt;最近在跑离线ORBSLAM2，需要本地数据集。 手头靠谱点的相机暂时只有Kinect，还是一代。&lt;br&gt;因此基本方法就是使用kinect去截取每帧图片，保存到本地。 开源驱动libfreenect刚好提供了这一工具，驱动方式便选择libfreenect了。&lt;/p&gt;
+&lt;h2 
+      
+    
     </summary>
     
-      <category term="Ros" scheme="http://robot-rex.top/categories/Ros/"/>
+      <category term="Ros" scheme="http://www.robot-rex.top/categories/Ros/"/>
     
     
-      <category term="Kinect" scheme="http://robot-rex.top/tags/Kinect/"/>
+      <category term="Kinect" scheme="http://www.robot-rex.top/tags/Kinect/"/>
+    
+      <category term="VSLAM" scheme="http://www.robot-rex.top/tags/VSLAM/"/>
     
   </entry>
   
   <entry>
     <title>My Work about Outdoor Ros Car</title>
-    <link href="http://robot-rex.top/2018/10/25/My-Work-about-Outdoor-Ros-Car/"/>
-    <id>http://robot-rex.top/2018/10/25/My-Work-about-Outdoor-Ros-Car/</id>
+    <link href="http://www.robot-rex.top/2018/10/25/My-Work-about-Outdoor-Ros-Car/"/>
+    <id>http://www.robot-rex.top/2018/10/25/My-Work-about-Outdoor-Ros-Car/</id>
     <published>2018-10-25T10:45:39.000Z</published>
     <updated>2018-10-30T10:50:55.906Z</updated>
     
@@ -63,17 +73,17 @@
     
     </summary>
     
-      <category term="Ros" scheme="http://robot-rex.top/categories/Ros/"/>
+      <category term="Ros" scheme="http://www.robot-rex.top/categories/Ros/"/>
     
     
-      <category term="Ros" scheme="http://robot-rex.top/tags/Ros/"/>
+      <category term="Ros" scheme="http://www.robot-rex.top/tags/Ros/"/>
     
   </entry>
   
   <entry>
     <title>Information recorded</title>
-    <link href="http://robot-rex.top/2018/10/25/Information-recorded/"/>
-    <id>http://robot-rex.top/2018/10/25/Information-recorded/</id>
+    <link href="http://www.robot-rex.top/2018/10/25/Information-recorded/"/>
+    <id>http://www.robot-rex.top/2018/10/25/Information-recorded/</id>
     <published>2018-10-25T10:45:08.000Z</published>
     <updated>2018-10-25T10:45:08.653Z</updated>
     
@@ -86,8 +96,8 @@
   
   <entry>
     <title>My Work about VSLAM</title>
-    <link href="http://robot-rex.top/2018/10/25/My-Work-about-VSLAM/"/>
-    <id>http://robot-rex.top/2018/10/25/My-Work-about-VSLAM/</id>
+    <link href="http://www.robot-rex.top/2018/10/25/My-Work-about-VSLAM/"/>
+    <id>http://www.robot-rex.top/2018/10/25/My-Work-about-VSLAM/</id>
     <published>2018-10-25T10:43:37.000Z</published>
     <updated>2018-10-30T10:51:03.353Z</updated>
     
@@ -95,19 +105,19 @@
     
     </summary>
     
-      <category term="Ros" scheme="http://robot-rex.top/categories/Ros/"/>
+      <category term="Ros" scheme="http://www.robot-rex.top/categories/Ros/"/>
     
     
-      <category term="SLAM" scheme="http://robot-rex.top/tags/SLAM/"/>
+      <category term="SLAM" scheme="http://www.robot-rex.top/tags/SLAM/"/>
     
-      <category term="Ros" scheme="http://robot-rex.top/tags/Ros/"/>
+      <category term="Ros" scheme="http://www.robot-rex.top/tags/Ros/"/>
     
   </entry>
   
   <entry>
     <title>extra</title>
-    <link href="http://robot-rex.top/2018/10/25/extra/"/>
-    <id>http://robot-rex.top/2018/10/25/extra/</id>
+    <link href="http://www.robot-rex.top/2018/10/25/extra/"/>
+    <id>http://www.robot-rex.top/2018/10/25/extra/</id>
     <published>2018-10-25T10:42:00.000Z</published>
     <updated>2018-10-30T11:28:26.212Z</updated>
     
@@ -115,17 +125,17 @@
     
     </summary>
     
-      <category term="extra" scheme="http://robot-rex.top/categories/extra/"/>
+      <category term="extra" scheme="http://www.robot-rex.top/categories/extra/"/>
     
     
-      <category term="extra" scheme="http://robot-rex.top/tags/extra/"/>
+      <category term="extra" scheme="http://www.robot-rex.top/tags/extra/"/>
     
   </entry>
   
   <entry>
     <title>my blog</title>
-    <link href="http://robot-rex.top/2018/10/23/my-blog/"/>
-    <id>http://robot-rex.top/2018/10/23/my-blog/</id>
+    <link href="http://www.robot-rex.top/2018/10/23/my-blog/"/>
+    <id>http://www.robot-rex.top/2018/10/23/my-blog/</id>
     <published>2018-10-23T12:40:11.000Z</published>
     <updated>2018-10-30T11:28:36.558Z</updated>
     
@@ -141,17 +151,17 @@
     
     </summary>
     
-      <category term="about blog" scheme="http://robot-rex.top/categories/about-blog/"/>
+      <category term="about blog" scheme="http://www.robot-rex.top/categories/about-blog/"/>
     
     
-      <category term="How to build persinal blog" scheme="http://robot-rex.top/tags/How-to-build-persinal-blog/"/>
+      <category term="How to build persinal blog" scheme="http://www.robot-rex.top/tags/How-to-build-persinal-blog/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://robot-rex.top/2018/10/23/hello-world/"/>
-    <id>http://robot-rex.top/2018/10/23/hello-world/</id>
+    <link href="http://www.robot-rex.top/2018/10/23/hello-world/"/>
+    <id>http://www.robot-rex.top/2018/10/23/hello-world/</id>
     <published>2018-10-23T11:21:17.941Z</published>
     <updated>2018-10-30T11:28:30.218Z</updated>
     
@@ -166,10 +176,10 @@
     
     </summary>
     
-      <category term="about blog" scheme="http://robot-rex.top/categories/about-blog/"/>
+      <category term="about blog" scheme="http://www.robot-rex.top/categories/about-blog/"/>
     
     
-      <category term="hello World" scheme="http://robot-rex.top/tags/hello-World/"/>
+      <category term="hello World" scheme="http://www.robot-rex.top/tags/hello-World/"/>
     
   </entry>
   
