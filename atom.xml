@@ -3,11 +3,11 @@
   <title>The future , The present</title>
   
   <subtitle>I can feel U !</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/blog/atom.xml" rel="self"/>
   
-  <link href="http://www.robot-rex.top/"/>
+  <link href="http://www.robot-rex.top/blog/"/>
   <updated>2018-11-01T07:25:13.080Z</updated>
-  <id>http://www.robot-rex.top/</id>
+  <id>http://www.robot-rex.top/blog/</id>
   
   <author>
     <name>Xiao Xiao ~</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>wedding preparation and record</title>
-    <link href="http://www.robot-rex.top/2018/11/01/wedding-preparation-record/"/>
-    <id>http://www.robot-rex.top/2018/11/01/wedding-preparation-record/</id>
+    <link href="http://www.robot-rex.top/blog/2018/11/01/wedding-preparation-record/"/>
+    <id>http://www.robot-rex.top/blog/2018/11/01/wedding-preparation-record/</id>
     <published>2018-11-01T07:03:35.000Z</published>
     <updated>2018-11-01T07:25:13.080Z</updated>
     
@@ -31,19 +31,19 @@
     
     </summary>
     
-      <category term="life" scheme="http://www.robot-rex.top/categories/life/"/>
+      <category term="life" scheme="http://www.robot-rex.top/blog/categories/life/"/>
     
     
-      <category term="emotion" scheme="http://www.robot-rex.top/tags/emotion/"/>
+      <category term="emotion" scheme="http://www.robot-rex.top/blog/tags/emotion/"/>
     
-      <category term="life" scheme="http://www.robot-rex.top/tags/life/"/>
+      <category term="life" scheme="http://www.robot-rex.top/blog/tags/life/"/>
     
   </entry>
   
   <entry>
     <title>Setting the Shadowsocks</title>
-    <link href="http://www.robot-rex.top/2018/10/26/Setting-the-Shadowsocks/"/>
-    <id>http://www.robot-rex.top/2018/10/26/Setting-the-Shadowsocks/</id>
+    <link href="http://www.robot-rex.top/blog/2018/10/26/Setting-the-Shadowsocks/"/>
+    <id>http://www.robot-rex.top/blog/2018/10/26/Setting-the-Shadowsocks/</id>
     <published>2018-10-26T08:09:38.000Z</published>
     <updated>2018-11-01T03:57:15.334Z</updated>
     
@@ -59,17 +59,17 @@
     
     </summary>
     
-      <category term="wall" scheme="http://www.robot-rex.top/categories/wall/"/>
+      <category term="wall" scheme="http://www.robot-rex.top/blog/categories/wall/"/>
     
     
-      <category term="wall" scheme="http://www.robot-rex.top/tags/wall/"/>
+      <category term="wall" scheme="http://www.robot-rex.top/blog/tags/wall/"/>
     
   </entry>
   
   <entry>
     <title>Video Capture with Kinect v1</title>
-    <link href="http://www.robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/"/>
-    <id>http://www.robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/</id>
+    <link href="http://www.robot-rex.top/blog/2018/10/26/Video-Capture-with-Kinect-v1/"/>
+    <id>http://www.robot-rex.top/blog/2018/10/26/Video-Capture-with-Kinect-v1/</id>
     <published>2018-10-26T07:23:06.000Z</published>
     <updated>2018-11-01T03:43:17.493Z</updated>
     
@@ -81,19 +81,19 @@
     
     </summary>
     
-      <category term="Ros" scheme="http://www.robot-rex.top/categories/Ros/"/>
+      <category term="Ros" scheme="http://www.robot-rex.top/blog/categories/Ros/"/>
     
     
-      <category term="Kinect" scheme="http://www.robot-rex.top/tags/Kinect/"/>
+      <category term="Kinect" scheme="http://www.robot-rex.top/blog/tags/Kinect/"/>
     
-      <category term="VSLAM" scheme="http://www.robot-rex.top/tags/VSLAM/"/>
+      <category term="VSLAM" scheme="http://www.robot-rex.top/blog/tags/VSLAM/"/>
     
   </entry>
   
   <entry>
     <title>My Work about Outdoor Ros Car</title>
-    <link href="http://www.robot-rex.top/2018/10/25/My-Work-about-Outdoor-Ros-Car/"/>
-    <id>http://www.robot-rex.top/2018/10/25/My-Work-about-Outdoor-Ros-Car/</id>
+    <link href="http://www.robot-rex.top/blog/2018/10/25/My-Work-about-Outdoor-Ros-Car/"/>
+    <id>http://www.robot-rex.top/blog/2018/10/25/My-Work-about-Outdoor-Ros-Car/</id>
     <published>2018-10-25T10:45:39.000Z</published>
     <updated>2018-10-31T10:59:21.073Z</updated>
     
@@ -101,17 +101,17 @@
     
     </summary>
     
-      <category term="Ros" scheme="http://www.robot-rex.top/categories/Ros/"/>
+      <category term="Ros" scheme="http://www.robot-rex.top/blog/categories/Ros/"/>
     
     
-      <category term="Ros" scheme="http://www.robot-rex.top/tags/Ros/"/>
+      <category term="Ros" scheme="http://www.robot-rex.top/blog/tags/Ros/"/>
     
   </entry>
   
   <entry>
     <title>Information recorded</title>
-    <link href="http://www.robot-rex.top/2018/10/25/Information-recorded/"/>
-    <id>http://www.robot-rex.top/2018/10/25/Information-recorded/</id>
+    <link href="http://www.robot-rex.top/blog/2018/10/25/Information-recorded/"/>
+    <id>http://www.robot-rex.top/blog/2018/10/25/Information-recorded/</id>
     <published>2018-10-25T10:45:08.000Z</published>
     <updated>2018-11-01T02:46:20.953Z</updated>
     
@@ -124,14 +124,14 @@
     </summary>
     
     
-      <category term="record" scheme="http://www.robot-rex.top/tags/record/"/>
+      <category term="record" scheme="http://www.robot-rex.top/blog/tags/record/"/>
     
   </entry>
   
   <entry>
     <title>My Work about ORBSLAM2</title>
-    <link href="http://www.robot-rex.top/2018/10/25/My-Work-about-VSLAM/"/>
-    <id>http://www.robot-rex.top/2018/10/25/My-Work-about-VSLAM/</id>
+    <link href="http://www.robot-rex.top/blog/2018/10/25/My-Work-about-VSLAM/"/>
+    <id>http://www.robot-rex.top/blog/2018/10/25/My-Work-about-VSLAM/</id>
     <published>2018-10-25T10:43:37.000Z</published>
     <updated>2018-11-01T02:47:57.579Z</updated>
     
@@ -143,19 +143,19 @@
     
     </summary>
     
-      <category term="Ros" scheme="http://www.robot-rex.top/categories/Ros/"/>
+      <category term="Ros" scheme="http://www.robot-rex.top/blog/categories/Ros/"/>
     
     
-      <category term="Ros" scheme="http://www.robot-rex.top/tags/Ros/"/>
+      <category term="Ros" scheme="http://www.robot-rex.top/blog/tags/Ros/"/>
     
-      <category term="SLAM" scheme="http://www.robot-rex.top/tags/SLAM/"/>
+      <category term="SLAM" scheme="http://www.robot-rex.top/blog/tags/SLAM/"/>
     
   </entry>
   
   <entry>
     <title>ros-extra</title>
-    <link href="http://www.robot-rex.top/2018/10/25/extra/"/>
-    <id>http://www.robot-rex.top/2018/10/25/extra/</id>
+    <link href="http://www.robot-rex.top/blog/2018/10/25/extra/"/>
+    <id>http://www.robot-rex.top/blog/2018/10/25/extra/</id>
     <published>2018-10-25T10:42:00.000Z</published>
     <updated>2018-11-01T07:01:38.501Z</updated>
     
@@ -167,17 +167,17 @@
     
     </summary>
     
-      <category term="extra" scheme="http://www.robot-rex.top/categories/extra/"/>
+      <category term="extra" scheme="http://www.robot-rex.top/blog/categories/extra/"/>
     
     
-      <category term="ros-extra" scheme="http://www.robot-rex.top/tags/ros-extra/"/>
+      <category term="ros-extra" scheme="http://www.robot-rex.top/blog/tags/ros-extra/"/>
     
   </entry>
   
   <entry>
     <title>my blog</title>
-    <link href="http://www.robot-rex.top/2018/10/23/my-blog/"/>
-    <id>http://www.robot-rex.top/2018/10/23/my-blog/</id>
+    <link href="http://www.robot-rex.top/blog/2018/10/23/my-blog/"/>
+    <id>http://www.robot-rex.top/blog/2018/10/23/my-blog/</id>
     <published>2018-10-23T12:40:11.000Z</published>
     <updated>2018-10-31T10:59:13.243Z</updated>
     
@@ -193,17 +193,17 @@
     
     </summary>
     
-      <category term="about blog" scheme="http://www.robot-rex.top/categories/about-blog/"/>
+      <category term="about blog" scheme="http://www.robot-rex.top/blog/categories/about-blog/"/>
     
     
-      <category term="persinal blog" scheme="http://www.robot-rex.top/tags/persinal-blog/"/>
+      <category term="persinal blog" scheme="http://www.robot-rex.top/blog/tags/persinal-blog/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.robot-rex.top/2018/10/23/hello-world/"/>
-    <id>http://www.robot-rex.top/2018/10/23/hello-world/</id>
+    <link href="http://www.robot-rex.top/blog/2018/10/23/hello-world/"/>
+    <id>http://www.robot-rex.top/blog/2018/10/23/hello-world/</id>
     <published>2018-10-23T11:21:17.941Z</published>
     <updated>2018-11-01T07:25:09.276Z</updated>
     
@@ -218,10 +218,10 @@
     
     </summary>
     
-      <category term="about blog" scheme="http://www.robot-rex.top/categories/about-blog/"/>
+      <category term="about blog" scheme="http://www.robot-rex.top/blog/categories/about-blog/"/>
     
     
-      <category term="hello World" scheme="http://www.robot-rex.top/tags/hello-World/"/>
+      <category term="hello World" scheme="http://www.robot-rex.top/blog/tags/hello-World/"/>
     
   </entry>
   
