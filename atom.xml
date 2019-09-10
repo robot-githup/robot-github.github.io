@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.robot-rex.top/"/>
-  <updated>2018-11-01T07:25:09.276Z</updated>
+  <updated>2019-09-10T08:53:23.339Z</updated>
   <id>https://www.robot-rex.top/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://www.robot-rex.top/2019/01/03/hello-world/"/>
-    <id>https://www.robot-rex.top/2019/01/03/hello-world/</id>
-    <published>2019-01-03T04:01:45.715Z</published>
-    <updated>2018-11-01T07:25:09.276Z</updated>
+    <link href="https://www.robot-rex.top/2019/09/10/hello-world/"/>
+    <id>https://www.robot-rex.top/2019/09/10/hello-world/</id>
+    <published>2019-09-10T08:53:23.339Z</published>
+    <updated>2019-09-10T08:53:23.339Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
     
@@ -34,120 +34,34 @@
     
     </summary>
     
-      <category term="about blog" scheme="https://www.robot-rex.top/categories/about-blog/"/>
+    
+      <category term="blog" scheme="https://www.robot-rex.top/categories/blog/"/>
     
     
-      <category term="hello World" scheme="https://www.robot-rex.top/tags/hello-World/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>robot-where</title>
-    <link href="https://www.robot-rex.top/2018/11/19/robot-where/"/>
-    <id>https://www.robot-rex.top/2018/11/19/robot-where/</id>
-    <published>2018-11-19T04:35:05.000Z</published>
-    <updated>2018-11-19T05:30:44.837Z</updated>
-    
-    <content type="html"><![CDATA[<p>&lt;!DOCTYPE html&gt;</p><p><html></html></p><p><head><meta name="generator" content="Hexo 3.8.0"><br>    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"><br>    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"><br>    <style type="text/css"><br>    body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:”微软雅黑”;}<br>    </style><br>    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=GDIGTlxF1LCtKPoFsEK8KntgQoPmVlUC"></script><br>    <title>地图展示</title><br></head></p><p><body><br>    <div id="allmap"></div><br></body><br></p><script type="text/javascript">    // 百度地图API功能    var map = new BMap.Map("allmap");    // 创建Map实例    map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别    //添加地图类型控件    map.addControl(new BMap.MapTypeControl({        mapTypes:[            BMAP_NORMAL_MAP,            BMAP_HYBRID_MAP        ]}));          map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放</script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
-&lt;p&gt;&lt;html&gt;&lt;/html&gt;&lt;/p&gt;
-&lt;p&gt;&lt;head&gt;&lt;meta name=&quot;generator&quot; content=&quot;Hexo 3.8.0&quot;&gt;&lt;br&gt;    &lt;meta http-equiv=&quot;Content-Typ
-      
-    
-    </summary>
-    
+      <category term="hexo" scheme="https://www.robot-rex.top/tags/hexo/"/>
     
   </entry>
   
   <entry>
-    <title>the new begin with my pc</title>
-    <link href="https://www.robot-rex.top/2018/11/14/the-new-begin-with-my-pc/"/>
-    <id>https://www.robot-rex.top/2018/11/14/the-new-begin-with-my-pc/</id>
-    <published>2018-11-14T08:49:22.000Z</published>
-    <updated>2019-01-03T04:11:06.807Z</updated>
+    <title>Chapter Moment</title>
+    <link href="https://www.robot-rex.top/2019/04/24/Chapter-Moment/"/>
+    <id>https://www.robot-rex.top/2019/04/24/Chapter-Moment/</id>
+    <published>2019-04-24T11:11:28.000Z</published>
+    <updated>2019-09-10T08:50:27.376Z</updated>
     
-    <content type="html"><![CDATA[<p>this a text with how i change my conputer!</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="工具准备"><a href="#工具准备" class="headerlink" title="工具准备"></a>工具准备</h2><p>1、 篆刻刀–永字牌，b站苏无相</p><p>2、 篆刻刀法<br>    冲刀、切刀、摆刀</p><p>3、 常用石头<br>    青田石、巴林石、寿山石<br>    石头保存需要上油：橄榄油、润肤油之类</p><p>4、 砂纸、刷子</p><p>5、 相关书籍<br>    篆刻五十讲<br>    篆刻字典<br>    汉印精华</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;this a text with how i change my conputer!&lt;/p&gt;
-
-      
+      This is some records about how to start chaptering
     
     </summary>
     
-      <category term="computer" scheme="https://www.robot-rex.top/categories/computer/"/>
     
     
       <category term="life" scheme="https://www.robot-rex.top/tags/life/"/>
     
-      <category term="computer" scheme="https://www.robot-rex.top/tags/computer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>software-i-used</title>
-    <link href="https://www.robot-rex.top/2018/11/13/software-i-used/"/>
-    <id>https://www.robot-rex.top/2018/11/13/software-i-used/</id>
-    <published>2018-11-13T14:10:28.000Z</published>
-    <updated>2018-11-15T08:39:43.215Z</updated>
-    
-    <content type="html"><![CDATA[<p>1、Andrio studio<br>2、kindle<br>3、网易云音乐<br>4、小米助手<br>5、wmitools<br>6、百度网盘<br>7、金山词霸<br>8、同花顺<br>9、完美解码<br>10、cmake<br>11、adobe flash player<br>12、adobe reader dc<br>13、putty<br>14、itool 4<br>15、idm<br>16、git<br>17、tree<br>18、java se development kit 8 update 151<br>19、Java 8 update 151 64-bit<br>20、mathtype<br>21、Origin pro 8.5.1<br>22、python3<br>23、visual studio community2017<br>24、nodejs<br>25、ondrive<br>26、ENDNOTE<br>27、mingw<br>28、opencv<br>29、ultra ios<br>30、3d sourse零件库<br>31、keil5<br>32、ugs<br>33、sublime3<br>34、gnu tools for arm processors 5.4<br>35、my folder<br>36、tim<br>37、微信<br>38、网易邮箱管家<br>39、rai drive<br>40、matlab r2016a<br>41、kingsoft<br>42、solidworks 2016(solidworktourdf)<br>43、制造云助手<br>44、listary<br>45、印象笔记<br>46、photo shop<br>47、calibre<br>48、</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;1、Andrio studio&lt;br&gt;2、kindle&lt;br&gt;3、网易云音乐&lt;br&gt;4、小米助手&lt;br&gt;5、wmitools&lt;br&gt;6、百度网盘&lt;br&gt;7、金山词霸&lt;br&gt;8、同花顺&lt;br&gt;9、完美解码&lt;br&gt;10、cmake&lt;br&gt;11、adobe flash playe
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>step-by-step-to-build-ROS-moblie-platform</title>
-    <link href="https://www.robot-rex.top/2018/11/08/step-by-step-to-build-ROS-moblie-platform/"/>
-    <id>https://www.robot-rex.top/2018/11/08/step-by-step-to-build-ROS-moblie-platform/</id>
-    <published>2018-11-08T08:13:20.000Z</published>
-    <updated>2018-12-26T04:17:27.012Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="1、小车3D模型"><a href="#1、小车3D模型" class="headerlink" title="1、小车3D模型"></a>1、小车3D模型</h2><h2 id="2、工程环境准备"><a href="#2、工程环境准备" class="headerlink" title="2、工程环境准备"></a>2、工程环境准备</h2><p>（1）keil安装<br>下载安装包和注册机，安装完毕通过pack install安装stm32f103需要的device包<br>新版本的keil不兼容旧版本的调试配置，把DebugConfig目录删了就好了，还出现同样问题则重装mdk最新版即可<br>（2）Ubuntu安装及ros环境搭建</p><h2 id="2、电机stm32控制程序"><a href="#2、电机stm32控制程序" class="headerlink" title="2、电机stm32控制程序"></a>2、电机stm32控制程序</h2><p>控制器与电机接线、控制器与stm32接线、编码器和stm32接线、stm32和树莓派接线。</p><p>首先是接控制器与电机接线，粗线一般接uvw端口，顺序一般不做要求，细线接hu、hw、hv、ref+、ref-，一般红正黑负，剩余线接后连接电源尝试rv调速是否可以正常运转，此次接线为绿蓝黄、红、蓝绿黄、黑。按照控制器由下至上排列<br>，avi端口选择PA8，详细参数资料，请查看<a href="http://item.taobao.com/item.htm?id=1654453046" target="_blank" rel="noopener">BLDC5015A</a></p><p>新建stm32工程参考<a href="D:\REX\文档\REX-PDF\STM32不完全手册_库函数版本_V3.1.pdf" target="_blank" rel="noopener">stm32不完全手册</a><br>c/c++标签页define栏填写STM32F10X_HD,USE_STDPERIPH_DRIVER<br>debug仿真时<br>1、debug标签页下选定use simulator，同时修改下方dll命令；<br>2、ctrl+F5进入仿真页面，打开analysis windows，setup添加需要监视的io口，例如PORTA.8，即可查看电平或者波形。<br>(<br>SARMCM3.DLL                   SARMCM3.DLL<br>DARMSTM.DLL   -pSTM32F103RC   TARMSTM.DLL   -pSTM32F103RC<br>)</p><p>ucosⅡ移植<br>需要修改的文件有os_cpu.h、os_cpu_a.asm、os_cpu_c.c.<br>本次解决方案是直接将openedv例程中的ucos-Ⅱ中的core、config和sourse文件夹直接复制过来，修改相应的文件夹名即可，省去复制官网例程的麻烦。<br>..\Output\Objects\speed controller.axf: Error: L6200E: Symbol PendSV_Handler multiply defined (by os_cpu_a.o and stm32f10x_it.o).报错后根据<a href="http://www.openedv.com/posts/list/0/56963.htm" target="_blank" rel="noopener">http://www.openedv.com/posts/list/0/56963.htm</a><br>中的说明将stm32f10x_it.c文件中的pendsv_handle、SysTick_Handler 函数注释掉<br>同时设置sys.h文件中的SYSTEM_SUPPORT_OS为1以使得支持ucos，此时即可开始使用ucos操作系统</p><p>stm32keil程序编写<br>移植ucosⅡ后定时器及一些外设的初始化要放到任务中去，如果在main中初始化是不行的。</p><p>1、程序结构包括stm32与pc的通讯连接，stm32与树莓派的通讯，stm32编码器的信息获取，stm32控制电机的程序</p><p>contactpc、contactpi、encoder、motor</p><p>电机控制包括，按调整的速度运行、急停、惯性停止、转向。<br>同时转向指的是插速转向。<br>电机转速控制使用TIM8高级计时器，四个通道频率相同，设置不同占空比来调速，io口为PC6、7、8、9，对应通道1到通道4，为驱动器avi接口，同时根据功能需要有对应急停、正反转、惯性停止3个io口，四个驱动器则需要12个io口，哇！<br>使用的AQMD6010BLS控制器的in1、2、3分别为调速、方向、停止<br>具体定时器pwm输出配置见stm32工程文件，<br>2、编码器设置<br>编码器直接使用stm32的编码器接口模式，需要四个计时器，使用TIM2（PA15、B3）、TIM3（PA6、7）、TIM4（PB6、7）、TIM5（PA0、1）这四个定时器的1、2通道，<br>编码器接线，四根线，vcc和gnd，ab两相线，ab分别接ch1和ch2即可，哈哈，完成。。。</p><p>3、调试设置<br>连接pc，io为PA10-RX、PA9-TX</p><h2 id="3、树莓派上ros环境搭建"><a href="#3、树莓派上ros环境搭建" class="headerlink" title="3、树莓派上ros环境搭建"></a>3、树莓派上ros环境搭建</h2><h2 id="4、树莓派和stm32的通讯建立"><a href="#4、树莓派和stm32的通讯建立" class="headerlink" title="4、树莓派和stm32的通讯建立"></a>4、树莓派和stm32的通讯建立</h2><p>PB10-u3-TX、PB11-u3-RX</p><h2 id="5、"><a href="#5、" class="headerlink" title="5、"></a>5、</h2><p>IO口使用整理：<br>1、<br>PA0、1、6、7、9、10、15<br>PB3、6、7、10、11<br>PC6、7、8、9<br>2、<br>PA3、4、5<br>PB12、13、14<br>PC0、2、3</p><p>白亮亮的stm32周期循环时间设置是36M，分频值为1680，然后预装载为1000，大致为90ms一个周期进行更新。<br>其中电机刷新间隔为2.36ms。</p><p>改为2ms、共8ms一周期<br>最好使用公母插头<br>编码器四对，vcc、地、ab两相共4孔x4<br>电机四对，地、avi驱动、刹车、方向、使能共5孔x4<br>树莓派连接一对，接地、r&amp;s端口，总共3孔x1</p><p>命名记录<br>编码器读取，左前轮  lf-last lf-now  右前 rf-last rf-now<br>           左后轮  lr-last lr-now       rr-last rr-now<br>随用随记<br>重写pid，（原程序中pid.c中的p-&gt;a相当于s.a）PID算法就是研究一种控制脉宽的方法，使得速度能既快又稳地稳定在指定速度上。</p><p>考虑任务实现</p><p>1、发送任务<br>2、接受任务<br>3、调试任务<br>4、额外任务 ⏲</p><p>任务函数中比如说发送数据时需要延时的场合，不想要挂起任务，因此不使用原子延时函数，使用[<a href="https://blog.csdn.net/yunzhifeiti/article/details/60467483]中的_NOP函数进行计时，实际计时准确率后续再进行分析。" target="_blank" rel="noopener">https://blog.csdn.net/yunzhifeiti/article/details/60467483]中的_NOP函数进行计时，实际计时准确率后续再进行分析。</a></p><p>白亮亮的程序：<br>1、TIM7循环执行<br>2、首先使能编码器接口定时器<br>3、接收数据并写入速度值<br>3.1、发送数据<br>4、速度设置，pid<br>中断优先级<br>发送信息<br>接受信息<br>编码器<br>循环事件</p><p>如果是定义的全局变量或者静态变量，未初始化的话就是0.如果是局部变量，那就是以前残留在堆栈里的随机值。因此白亮亮pid程序中+=运算中都是存在初始值的</p><p>对于脉冲式测量，需要将脉冲频率转换为速度信号。在不同的转速和精度要求下有着不同的转换方法。<br>常用的转换方法有三种：M法、T法、以及M/T法。</p><p>M法测速是利用在规定时间间隔T1内,高速计数器的累加值m1,计算速度值。M法测量转速在极端情况下会产生±1个转速脉冲的计数误差。只有在被测转速或编码器分辨率较高时，有较高的测量精度。</p><p>T法测速是通过测量高速计数器计入相邻两个输入脉冲之间的时间来确定被测速度，T法测量转速在极端情况下对时间的测量会产生±1个时钟脉冲周期的误差。只有在被测转速较低时，有较高的测量精度。</p><p>M/T法测速首先确定一个时间T1，在这个时间内输入脉冲可达相当数量，而且这个时间的启动与输入脉冲的前沿或后沿同步。然后在T1的基础上延长一个变动的时间∆T，使得计数要等到下一个输入脉冲到来时才算结束，因此实际的测量时间T=T1+∆T。利用Ｍ/Ｔ法可获得较高的检测精度，但是对于低速,该方法需要较长的检测时间才能保证结果的准确性，这样就无法满足一个转速检测系统的快速动态响应指标。</p><p>大家都比较清楚在闭环伺服系统中，编码器的反馈脉冲个数和系统所走位置的多少成正比，但对于怎样通过编码器所反馈的脉冲个数来求得电机的旋转速度了解的人就不是很多了。</p><p>根据脉冲计数来测量转速的方法有以下三种：（1）在规定时间内测量所产生的脉冲个数来获得被测速度，称为M法测速；（2）测量相邻两个脉冲的时间来测量速度，称为T法测速；（3）同时测量检测时间和在此时间内脉冲发生器发出的脉冲个数来测量速度，称为M/T法测速。以上三中测速方法中，M法适合于测量较高的速度，能获得较高分辨率；T法适合于测量较低的速度，这时能获得较高的分辨率；而M/T法则无论高速低速都适合测量。</p><p>线数,就是每转输出的脉冲的个数，线数就是编码器的分辨率,也就是一转所发出的脉冲数,编码器没有倍频技术,是接收器处理脉冲时通过编码器输出脉冲(A与B相)的相位差关系实现倍频技术的。</p><p>32的定时器主要有 时基单元，比较输出，输入捕获和PWM输出几种工作模式。其中时基单元和比较输出类似，两者都要禁止预装载寄存器，即失能OCProload。而且两者的定时器中断服务函数里都是根据当前计数值更新输出捕获寄存器。即<br>TIM_SetCompare1(TIM2,TIM_GetCapture1(TIM2)+CCR1_Val);<br>TIM_ClearITPendingBit(TIM2,TIM_IT_CC1);<br>两者的不同就是TIM_Mode里，前者选择了计数器模式Timing，而后者选择了输出比较模式Toggle。</p><p>而PWM输出中，则使能了预装载寄存器（CCRx和ARR的预装载寄存器）。所以这种模式下就没有了中断服务函数。<br>而且PWM的模式选择了PWM1/2.</p><p>定时器做好初始化后，到达初始化设置的时间后会自动进入中断服务程序，这时候无论主程序运行在什么地方，都会进入到中断中。中断处理完后，在返回到主程序原来的位置继续执行。所以说不一定在主程序的哪里进入的中断</p><p>ttyAMA0为树莓派连接stm32的串口，是将蓝牙串口关掉，换成正常串口<br>同时ublox-gps为ACM0</p><p>连接imu首先需要打开i2c串口，然后根据<a href="http://www.cnblogs.com/hangxin1940/archive/2013/04/05/3000395.html进行设置即可，补充说明，首先是参考http://www.cnblogs.com/hangxin1940/archive/2013/04/02/2997077.html" target="_blank" rel="noopener">http://www.cnblogs.com/hangxin1940/archive/2013/04/05/3000395.html进行设置即可，补充说明，首先是参考http://www.cnblogs.com/hangxin1940/archive/2013/04/02/2997077.html</a> 与 搭建python i2c开发环境 <a href="http://www.cnblogs.com/hangxin1940/archive/2013/04/03/2997094.html去打开i2c端口，然后根据http://www.cnblogs.com/hangxin1940/archive/2013/04/04/2999015.html安装quick2wire库，最后根据一开始给的网页进行设置。同时上述使用过程中会出现python3在ros下的使用，以及yaml" target="_blank" rel="noopener">http://www.cnblogs.com/hangxin1940/archive/2013/04/03/2997094.html去打开i2c端口，然后根据http://www.cnblogs.com/hangxin1940/archive/2013/04/04/2999015.html安装quick2wire库，最后根据一开始给的网页进行设置。同时上述使用过程中会出现python3在ros下的使用，以及yaml</a> module没有，pip3 install pyyaml解决，提示无rospkg，sudo apt-get install python-rospkg<br>解决，还是提示rospkg错误，然后pip3 install解决问题,最重要的是quickwire-python-api是只支持python3的因此需要在python3下安装，具体会在之后形成详细过程。</p><p>gps信息可以使用robot-localization直接转换，同时还可以添加imu信息进行融合，之后选择传感器为imu信息、gps信息、编码器轮子信息、Kinect图像信息得出的视觉里程计信息、手机imu和gps等信息共6个以上信息进行卡尔曼滤波器进行融合，超级优秀。</p><p>我们将使用它将全球Pose数据（x，y，z和方向）与机器人上的现有传感器融合，以实现更强大的本地化！</p><p>Android&amp;&amp;ros的环境搭建<br>首先是jdk的安装，百度即可，添加路径至bashrc中，同时下载Android-studio和Android-sdk，添加对应HOME路径和bin、tools、platform-tools路径，然后安装rosjava，教程网上，接着则是下载Android-core进行编译，成功后导入Android-studio即可</p>]]></content>
-    
-    <summary type="html">
-    
-      从零开始一步一步搭建属于自己的ros移动平台
-    
-    </summary>
-    
-      <category term="DIY" scheme="https://www.robot-rex.top/categories/DIY/"/>
-    
-    
-      <category term="Ros" scheme="https://www.robot-rex.top/tags/Ros/"/>
-    
-      <category term="platform" scheme="https://www.robot-rex.top/tags/platform/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>about PingFang robot</title>
-    <link href="https://www.robot-rex.top/2018/11/08/about-PingFang-robot/"/>
-    <id>https://www.robot-rex.top/2018/11/08/about-PingFang-robot/</id>
-    <published>2018-11-08T06:43:35.000Z</published>
-    <updated>2018-11-08T06:43:36.093Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
+      <category term="hoby" scheme="https://www.robot-rex.top/tags/hoby/"/>
     
   </entry>
   
@@ -156,13 +70,14 @@
     <link href="https://www.robot-rex.top/2018/11/01/wedding-preparation-record/"/>
     <id>https://www.robot-rex.top/2018/11/01/wedding-preparation-record/</id>
     <published>2018-11-01T07:03:35.000Z</published>
-    <updated>2019-01-03T04:08:37.913Z</updated>
+    <updated>2019-09-10T07:55:51.214Z</updated>
     
     <summary type="html">
     
       To Be Continue......
     
     </summary>
+    
     
       <category term="life" scheme="https://www.robot-rex.top/categories/life/"/>
     
@@ -174,70 +89,27 @@
   </entry>
   
   <entry>
-    <title>Setting the Shadowsocks</title>
-    <link href="https://www.robot-rex.top/2018/10/26/Setting-the-Shadowsocks/"/>
-    <id>https://www.robot-rex.top/2018/10/26/Setting-the-Shadowsocks/</id>
-    <published>2018-10-26T08:09:38.000Z</published>
-    <updated>2018-11-01T03:57:15.334Z</updated>
-    
-    <content type="html"><![CDATA[<p>本文基本是参考<a href="https://www.jianshu.com/p/a0f3268bfa33" target="_blank" rel="noopener">简书博客</a>，特此声明。</p><h2 id="配置SSR客户端"><a href="#配置SSR客户端" class="headerlink" title="配置SSR客户端"></a>配置SSR客户端</h2><p>没用原版，用的是SSR这个第三方版本，主要是它比原版多了伪装功能，包括协议和混淆。</p><p>“SSR 主要特点是增加了一些人性化功能，比如服务器连接统计、连接管理、协议转换、多重代理等。”</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">参考目录：</span><br><span class="line">1、https://blog.csdn.net/superbfly/article/details/54950451</span><br><span class="line">2、https://www.jianshu.com/p/c336fd0bdfbe</span><br><span class="line">3、https://www.jianshu.com/p/a0f3268bfa33</span><br></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;本文基本是参考&lt;a href=&quot;https://www.jianshu.com/p/a0f3268bfa33&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;简书博客&lt;/a&gt;，特此声明。&lt;/p&gt;
-&lt;h2 id=&quot;配置SSR客户端&quot;&gt;&lt;a href=&quot;#配置S
-      
-    
-    </summary>
-    
-      <category term="wall" scheme="https://www.robot-rex.top/categories/wall/"/>
-    
-    
-      <category term="wall" scheme="https://www.robot-rex.top/tags/wall/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Video Capture with Kinect v1</title>
     <link href="https://www.robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/"/>
     <id>https://www.robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/</id>
     <published>2018-10-26T07:23:06.000Z</published>
-    <updated>2018-11-01T03:43:17.493Z</updated>
+    <updated>2019-09-10T08:48:43.491Z</updated>
     
-    <content type="html"><![CDATA[<p>最近在跑离线ORBSLAM2，需要本地数据集。 手头靠谱点的相机暂时只有Kinect，还是一代。<br>因此基本方法就是使用kinect去截取每帧图片，保存到本地。<br>开源驱动libfreenect刚好提供了这一工具，驱动方式便选择libfreenect了。<br><a id="more"></a></p><h2 id="start"><a href="#start" class="headerlink" title="start"></a>start</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/OpenKinect/libfreenect</span><br><span class="line">$ <span class="built_in">cd</span> libfreenect</span><br><span class="line">$ mkdir build</span><br><span class="line">$ <span class="built_in">cd</span> build</span><br><span class="line">$ cmake .. </span><br><span class="line">$ make</span><br></pre></td></tr></table></figure><p>以上则是编译libfreenect的过程，README.md文件中也有相同的说明。</p><h2 id="record"><a href="#record" class="headerlink" title="record"></a>record</h2><p>编译完成之后其实就可以开始图片数据集采集了，在libfreenect下build/bin文件夹中可以找到fakenect-record二进制执行文件。运行之，得到提示</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">record [-h] [-ffmpeg] [-ffmpeg-opts &lt;option&gt;] &lt;target basename&gt;</span><br></pre></td></tr></table></figure><p>对于任务要求，我们只需要设置basename参数，也即是存放图片数据集的本地目录。</p><p>重新运行fakenect-record，即可在所选的路径下找到截取的一帧帧图片。</p>]]></content>
+    <content type="html"><![CDATA[<p>最近在跑离线ORBSLAM2，需要本地数据集。 手头靠谱点的相机暂时只有Kinect，还是一代。<br>因此基本方法就是使用kinect去截取每帧图片，保存到本地。<br>开源驱动libfreenect刚好提供了这一工具，驱动方式便选择libfreenect了。 </p><a id="more"></a><h2 id="start"><a href="#start" class="headerlink" title="start"></a>start</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/OpenKinect/libfreenect</span><br><span class="line">$ <span class="built_in">cd</span> libfreenect</span><br><span class="line">$ mkdir build</span><br><span class="line">$ <span class="built_in">cd</span> build</span><br><span class="line">$ cmake .. </span><br><span class="line">$ make</span><br></pre></td></tr></table></figure><p>以上则是编译libfreenect的过程，README.md文件中也有相同的说明。</p><h2 id="record"><a href="#record" class="headerlink" title="record"></a>record</h2><p>编译完成之后其实就可以开始图片数据集采集了，在libfreenect下build/bin文件夹中可以找到fakenect-record二进制执行文件。运行之，得到提示</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">record [-h] [-ffmpeg] [-ffmpeg-opts &lt;option&gt;] &lt;target basename&gt;</span><br></pre></td></tr></table></figure><p>对于任务要求，我们只需要设置basename参数，也即是存放图片数据集的本地目录。</p><p>重新运行fakenect-record，即可在所选的路径下找到截取的一帧帧图片。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;最近在跑离线ORBSLAM2，需要本地数据集。 手头靠谱点的相机暂时只有Kinect，还是一代。&lt;br&gt;因此基本方法就是使用kinect去截取每帧图片，保存到本地。&lt;br&gt;开源驱动libfreenect刚好提供了这一工具，驱动方式便选择libfreenect了。&lt;br&gt;
+      &lt;p&gt;最近在跑离线ORBSLAM2，需要本地数据集。 手头靠谱点的相机暂时只有Kinect，还是一代。&lt;br&gt;因此基本方法就是使用kinect去截取每帧图片，保存到本地。&lt;br&gt;开源驱动libfreenect刚好提供了这一工具，驱动方式便选择libfreenect了。 &lt;/p&gt;
     
     </summary>
     
+    
       <category term="Ros" scheme="https://www.robot-rex.top/categories/Ros/"/>
     
+    
+      <category term="ORBSLAM2" scheme="https://www.robot-rex.top/tags/ORBSLAM2/"/>
     
       <category term="Kinect" scheme="https://www.robot-rex.top/tags/Kinect/"/>
-    
-      <category term="VSLAM" scheme="https://www.robot-rex.top/tags/VSLAM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>My Work about Outdoor Ros Car</title>
-    <link href="https://www.robot-rex.top/2018/10/25/My-Work-about-Outdoor-Ros-Car/"/>
-    <id>https://www.robot-rex.top/2018/10/25/My-Work-about-Outdoor-Ros-Car/</id>
-    <published>2018-10-25T10:45:39.000Z</published>
-    <updated>2018-10-31T10:59:21.073Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="Ros" scheme="https://www.robot-rex.top/categories/Ros/"/>
-    
-    
-      <category term="Ros" scheme="https://www.robot-rex.top/tags/Ros/"/>
     
   </entry>
   
@@ -246,7 +118,7 @@
     <link href="https://www.robot-rex.top/2018/10/25/Information-recorded/"/>
     <id>https://www.robot-rex.top/2018/10/25/Information-recorded/</id>
     <published>2018-10-25T10:45:08.000Z</published>
-    <updated>2018-11-07T07:22:58.726Z</updated>
+    <updated>2019-09-10T08:53:57.623Z</updated>
     
     <content type="html"><![CDATA[<p>1、若遇电机堵转或启动力矩不足，在确认电机完好的情况下，一般考虑霍尔线接错的情况，其他接线可参照5015a电机说明书；<br>2、编码器接线一般红色线接vcc，黑色线为ov线接地，白色和绿色线为信号输出线；<br>3、声明变量即定义需要在执行函数之前；<br>4、树莓派直接开机创建ap热点，提供master连接；<br>5、交换串口名称，现使用为/ttyAMA0;<br>6、有中断则都在中断中处理，若不设置中断处理则可以考虑在任务中处理，尽量不在存在中断处理函数的情况下在任务或主函数中进行读写位操作，以防两者冲突；<br>7、输出高低电平使用推挽输出，0v和3.3v，用来控制电机正反转和急停；<br>8、ucos与usart串口存在冲突，函数使用初始化尽量在ucos初始化之前声明；<br>9、编码器的延时需要符合自己工程的需求；<br>10、占空比13%时，延时900us，得到编码器差值为6，500us时差值为3或4；<br>11、Microsoft C++ 异常: 内存位置 0x002af444 处的 cv::Exception<br>此处为当图像输入路径不准确时所发生的问题，需要/而不是\；<br>12、ucos下打印float会失败，因此采用求小数的方法直接打印int类型的数；<br>13、编码器线数要乘以4才是一圈的脉冲数，为1600脉冲；<br>14、ORBSlam下编译时会有一些程序需要添加#include&lt;unistd.h&gt;，以防编译失败，同时将不需要的双目和数据集删除时，需要注意在CmakeList.txt中删除对应的语句；<br>15、红正黑负，褐正白负；<br>16、keyboard速度无法控制时，有两种方案，1为直接remap速度给twist_mux下的cmd_vel，2为在mux下增加相应的话题及其优先级，方法2未成功，直接使用方法1为解决方案；<br>17、谷歌地图经纬度数据，31.4854;120.2701   ublox gps测量数据31.4867;120.2653;<br>18、robot_localization包的设置：<br>参数two_d_mode  EKFFA定位节点和UKFFL定位节点均采用三维全方位运动模型。如果此参数设置为true，则不会在状态估计中使用3D信息。如果您在平面环境中操作，并且希望忽略可能由例如IMU检测到的地面小变化的影响，请使用此选项。如果未指定，默认为false。<br>参数odom0_queue_size 如果我们有很高频率的数据流或者正在使用低频参数运行，则需要修改此参数以融合更多变量。<br>参数odom0_differential  当用两个传感器测量一个姿态变量时，可能会出现两个传感器报告它们的协方差的情况。这会导致滤波器在它们到达时在每个测量之间快速地来回跳动。在这些情况下，通常有意义的是(a)校正测量协方差，或者(b)如果速度也由一个传感器测量，则让一个传感器测量姿态，另一个传感器测量速度。然而，做（a）或（b）并不总是可行的，因此我们暴露微分参数。当启用差分模式时，通过微分绝对姿态测量，将所有绝对姿态数据转换为速度数据。然后这些速度像平常一样集成。注意：这仅适用于提供姿态测量的传感器；对于扭转测量将差分设置为真没有效果。<br>19、内网穿透完成，实现真实远程，缺点是传输速率较低，毕竟免费嘛<br>具体方法是，注册好nat ngrokc账号之后，购买通道进行设置，选择tcp协议，本地ip为主机在局域网中的ip，端口选常用ssh端口22，复制对应的隧道编码后在主机下运行./natapp +编码串 即可在终端中得到分配的远程服务器端口号，在远程主机的ssh工具中实现真实远程操控。<br>20、kinect驱动选择OPENKINECT，apt install libfreenect之后github下freenect_stack、rgb_launch，进行工程下编译，成功。</p><p>21、qt开发，首先安装qt和ros的相关包，ros-distro-qt,并安装好相应的cmake编译器，导入ros工程包到qt中<br>其过程中出现找不到catkin package等包，因此卸载后选择ROS Qt Creator Plug-in教程进行安装，以便之后的编译。<br>出现问题，编译失败，因此选择按照创客制造教程进行安装。<br>再次失败，按照官方教程 进行安装，<br><a href="https://ros-industrial.github.io/ros_qtc_plugin/Hpw-to-install-Users.html" target="_blank" rel="noopener">https://ros-industrial.github.io/ros_qtc_plugin/Hpw-to-install-Users.html</a>.<br>New project之后的ros workspace进行导入，选择catkin_ws目录，进行build。<br>22、catkin_ws_dy编译出现错误  move_base、bullet（lib）、sdl(lib 1.2)、sdl-image、navigation_msgs、ros_control、orocos-bfl (robot_pose_ekf)、tf2_geometry_msgs ros-kinetic-geometry2、eigen3 /usr/local/include /usr/include、realtime tools、permission denied、pingfang_hardware.h realtime<br>    编译ros_controller出现错误，缺失four_wheel_steering_msgs 使用ros package找出git来源，继续编译出现urdf_geometry_parser缺失，git clone 找出下载后编译，缺失control toolbox ，均在ros-controls项目下找到包下载后去编译，编译再次失败，缺失control_manager，添加之，接下来基本都是这种问题，添加完全路径即可<br>    运行pingfang_base缺失imu_tools、robot_localization，编译robot-localization时缺失geometry-msgs、uuid-msgs<br>    编译之后啊，base.launch由出现bug，缺失interactive-marker-teist-server、twist-mux</p>]]></content>
     
@@ -257,16 +129,19 @@
     </summary>
     
     
-      <category term="record" scheme="https://www.robot-rex.top/tags/record/"/>
+    
+      <category term="ros" scheme="https://www.robot-rex.top/tags/ros/"/>
+    
+      <category term="mobile platform" scheme="https://www.robot-rex.top/tags/mobile-platform/"/>
     
   </entry>
   
   <entry>
-    <title>My Work about ORBSLAM2</title>
+    <title>code reading of ORBSLAM2</title>
     <link href="https://www.robot-rex.top/2018/10/25/My-Work-about-VSLAM/"/>
     <id>https://www.robot-rex.top/2018/10/25/My-Work-about-VSLAM/</id>
     <published>2018-10-25T10:43:37.000Z</published>
-    <updated>2018-11-01T02:47:57.579Z</updated>
+    <updated>2019-09-10T08:52:54.382Z</updated>
     
     <content type="html"><![CDATA[<p>Orbslam源码解析<br>Orbslam是非常优秀的针对单目视觉slam的工程，这边以orbslam2为研究对象，具体过程以mono_kitti为参考对象。</p><p>首先mono_kitti程序有两个函数，包括loadimage()和主函数main，其中loadimage函数主要目的是读取标准数据库kitti中的图片和相应的时间戳，此处读取的图片集为左摄像头数据集。</p><p>在运行mono_kitti时候需要3个参数，包括orb词袋路径，yaml路径以及kitti数据集上层路径。</p><p>进入主函数，流程如下：</p><ol><li>对输入参数进行判断，主要目的是判断输入字符串是否符合要求；</li><li>构造了图片名称向量和时间向量；</li><li>载入kitti数据库，此处通过loadimage函数进行操作；<br>a)    load函数有三个参数，包括数据集上层路径、图片名称空向量、时间空向量；<br>b)    传入数据集时间文件名称字符串，即在上层路径后加上/times.txt，使用stringstream；<br>c)    左摄像头图片数据集的路径上传，使用stringstream；<br>d)    最后得到数据集图片的名称数组和时间数组。</li><li>创建system，system SLAM,其中参数为输入的两个字符串路径，里程计类型，以及一个布尔量；<br>a)    System入口之后首先输出一些字符信息，然后根据输入的里程计类型输出对应的字符；<br>b)    根据输入的词袋路径和yaml文件路径进行读取载入；<br>c)    创建关键帧数据库，创建新地图，创建显示用的地图和帧绘画器；<br>d)    初始化tracking线程；<br>i.    初始化参数包括system，词袋库，绘画器，地图，关键字数据库，yaml路径，里程计类型；<br>ii.    载入yaml中的相机内参以及图像的矫正系数；<br>iii.    载入yaml中对orb特征提取的约束参数，包括提取的特征点数目，建立金字塔的尺度变化因子以及层数，提取fast特征点的阙值以及最小阙值设定；<br>iv.    初始化orb特征提取器orbextractor，若是单目系统则另外初始化特征提取器initorbextractor，提取器的参数为上述c中涉及的yaml参数；<br>e)    初始化地图相关线程，包括localmapping和localmapper线程；<br>i.    Localmapping的参数包括创建的地图和里程计类型，并增加部分函数引用；<br>ii.    Localmapper使用localmapping，通过localmapping中的run函数调用，首先将acceptkeyframe参数设置为fulse，之后等待要处理的关键帧不为空，使用的是checknewkeyframe函数；<br>iii.    计算关键帧特征点的bow映射，并和当前帧进行匹配，同时更新关键帧之间的关系，将关键帧插入地图；<br>iv.    进入剔除不合格地图点的函数进行地图关键点优化，并通过三角化恢复出一些地图点；<br>v.    在关键帧序列为空之后即checknewframes为fulse，检查重复的地图点并进行融合；<br>vi.    在闭环检测没有停止且关键帧序列为空时进行关键帧删除，筛选原则为帧间关系达90%以上，并将当前处理的帧加入闭环检测线程中；<br>vii.    若收到stop请求之后则将stopped布尔值置为true并输出local mapping stop，并判断isstoped函数中返回的mbstopped布尔值进入while函数进行休息3ms；<br>viii.    如果检测结束即break出去；<br>ix.    Resetifrequest函数入口之后判断mbresetstopped布尔值，并在函数内进行清空操作，clear newkeyframe以及最近添加的地图点并返回fulse；<br>x.    设置可接收关键帧状态，并判断是否结束，若结束则break，否则sleep 5ms；<br>xi.    在while函数结束后进行stopped和finished布尔值设置。<br>f)    初始化闭环检测和viewer线程；<br>g)    在各线程间建立联系。</li><li></li><li>for循环调用imread读取图片保存在矩阵中，以下均为for循环内操作；<br>a)    记录当前时间；<br>b)    进入track线程的trackmonocular函数入口，参数为读取的图像矩阵和对应的时间；<br>c)    函数最后关键为grabimagemonocular，输入参数为图像像素矩阵和时间；<br>i.    将图像转为灰度图，使用函数为opencv中的cvtcolor转换器；<br>ii.    构造帧，分为初始化和未初始化两种参数；<br>iii.    进入track函数；<br>iv.    初始化track函数，也即对单目进行初始化，进入monocularinitization函数；<br>1)     判断当前帧的特征点数是否大于100，初始化所需要的两帧进行构建frame，对当前帧构建初始器，参数为测量误差因子和ransac迭代次数；<br>2)    进行初始化，若当前帧特征点没有100，则删除初始器并重新构建；<br>3)    使用mvInitmatches储存参考帧和当前帧的匹配特征点的信息；<br>4)    同样的，若匹配点太少则重新进行初始化；<br>5)    并行计算H模型和F模型，即基础矩阵和单应性矩阵，并通过计算得分比例选择其中一个模型进行相对运动初始化；<br>6)    删除无法进行三角化的匹配点并将3d点包装成地图点，这一步骤中包括ba优化等一系列操作。<br>v.    初始化结束之后则是对后续图像帧的跟踪；<br>1)    判断是否初始化成功，并检查更新上一帧变动的地图点，初始化之后或者运动速度模型为空时，选择的是根据参考帧进行跟踪，即根据匹配对估计当前帧的姿态，首先当当前帧的描述子转化为bow向量，通过特征点的bow加快特征点匹配，优化3d-2d重投影误差来获取位姿，剔除优化后的溢出的匹配点；<br>2)    若可以使用速度模型则使用恒速模型设置当前帧的初始位移，然后优化投影误差；<br>3)    记录位姿信息用于轨迹复现。<br>d)    记录当前时间，并得到追踪过程所花的时间，然后根据读取的时间文件中的信息，作出等待下一帧继续休眠至满足时间文件中相应帧的时间。</li><li>关闭所有slam线程，使用的是system.cpp中的shutdown函数，包括localmapper、loopcloser、viewer，并等待检测所有线程中的自检函数isfinished确认结束掉线程，pangolin使用bindtext打印字符串；</li><li>C++sort函数对追踪时间进行排序，并for函数计算所有时间，并打印相应的字符信息；</li><li>调用函数保存关键帧所计算出的相机位姿路径。</li></ol>]]></content>
     
@@ -276,12 +151,13 @@
     
     </summary>
     
-      <category term="Ros" scheme="https://www.robot-rex.top/categories/Ros/"/>
+    
+      <category term="VSLAM" scheme="https://www.robot-rex.top/categories/VSLAM/"/>
     
     
-      <category term="Ros" scheme="https://www.robot-rex.top/tags/Ros/"/>
+      <category term="ORBSLAM2" scheme="https://www.robot-rex.top/tags/ORBSLAM2/"/>
     
-      <category term="SLAM" scheme="https://www.robot-rex.top/tags/SLAM/"/>
+      <category term="code" scheme="https://www.robot-rex.top/tags/code/"/>
     
   </entry>
   
@@ -290,7 +166,7 @@
     <link href="https://www.robot-rex.top/2018/10/25/extra/"/>
     <id>https://www.robot-rex.top/2018/10/25/extra/</id>
     <published>2018-10-25T10:42:00.000Z</published>
-    <updated>2018-11-01T07:01:38.501Z</updated>
+    <updated>2019-09-10T07:55:51.214Z</updated>
     
     <content type="html"><![CDATA[<p>1、国内镜像站点下载Ubuntu 16.04 (<a href="http://mirrors.aliyun.com/ubuntu-releases/16.04/" target="_blank" rel="noopener">http://mirrors.aliyun.com/ubuntu-releases/16.04/</a>)</p><p>2、<a href="https://blog.csdn.net/weixin_40494464/article/details/81010256" target="_blank" rel="noopener">https://blog.csdn.net/weixin_40494464/article/details/81010256</a></p><p>3、<a href="https://www.ncnynl.com/archives/201608/497.html" target="_blank" rel="noopener">https://www.ncnynl.com/archives/201608/497.html</a><br>加上ros wiki内容 安装ros-kinetic-full 、rosinstall</p><p>4、ORBSLAM2 install  /make之后则是编译完成了，sudomakeinstall则是向pc中写入相关文件/<br>(1)    官网拿opencv 2和opencv 3 全都编译 头文件在/usr/local/include  库文件在/usr/local/lib/<br>依赖安装在创客制造中寻找<br>Build下cmake .. +make+make install<br>(2)    官网eigen编译安装，高翔的点云修改版得用3.2x版本的，因此下载3.2.10进行编译，编译按csdn教程“一块灰色的石头” Ubuntu16.04+eigen3安装，解压在/usr/local/include&amp;&amp;/usr/include<br>(3)    pangolin安装，首先是GitHub下源码，安装依赖grew之后再根据readme.md编译，sudomake install之后默认在/usr/local/include<br>(4)    Dbow2、g2o均在github下载后编译，库函数均在/usr/local/include<br>(5)    4在orbslam中build，sudomakeinstall不需要进行，直接./build.sh<br>(6)    高翔的ORBSLAMwithpointcloud首先解压编译g2o，再编译orbslam<br>(7)    Boomfan的orbslam2包含了地图模块，编译方法一样<br>(8)    首先是标定相机参数，形成yaml代替原始yaml，然后则是开始运行啦<br>(9)    编译ros下的工程包时出错，添加路径到bashrc，创客制造 </p><p>5、RTAB_MAP<br>(1)    源码安装github下，<br>(2)    Gtam安装，源码编译，最后需要安装以便ros包找到<br>(3)    Cvsba 源码编译及配置，地址在创客制造<br>(4)    编译失败则卸载出问题的包重新安装编译，我出问题的包是g2o，重新编译安装后成功<br>(5)    编译rtabmap-ros时缺失move-base-msgs、costmap、find object 、<br>(6)    编译navigation缺失bullet、sdl、sdl-image1.2、orocos-bfl(ros-distro-bfl)<br>(7)    编译成功</p><p>6、libfreenect<br>安装kinect v1的开源驱动libfreenect，mkdir build ，cmake .. + make<br>源码安装的依赖有freenect_stack  rgbd_launch,github下编译之后则可运行摄像头，输出话题</p><p>7、代码管理</p><h1 id="修改前的域名dns："><a href="#修改前的域名dns：" class="headerlink" title="修改前的域名dns："></a>修改前的域名dns：</h1><p>dns29.hichina.com<br>dns30.hichina.com 不行就换掉#个人博客GitHub资源建站<br>(1)    域名注册完成<br>(2)    GitHub注册<br>(3)    新建github项目，name为xxx.github.io，设置项目setting的customdomain，为注册的域名<br>(4)    域名解析添加GitHub项目名，cname，www，10分钟，解析完毕后已经可以在网页中预览自带的模板<br>(5)    进行远程仓库管理，下载git<br>(6)    Clone下之前建立的项目，并在初始设置中添加ssh key ，ssh key 生成教程于博客寻找<br>(7)    先确定是否连接上 ，ssh -T <a href="mailto:github@github.com" target="_blank" rel="noopener">github@github.com</a><br>(8)    设置全局邮箱账号和用户名<br>(9)    因为clone下来的git中已存在.git，不需要初始化，直接修改文件项目<br>(10)    修改之后git add . ,使用git status查看相关信息并添加修改说明，git commit -m “ xxxxx”<br>(11)    git push -u origin master 或者其他命令提交代码</p>]]></content>
     
@@ -300,6 +176,7 @@
     
     </summary>
     
+    
       <category term="extra" scheme="https://www.robot-rex.top/categories/extra/"/>
     
     
@@ -308,11 +185,11 @@
   </entry>
   
   <entry>
-    <title>my blog</title>
+    <title>Generate Blog with Hexo</title>
     <link href="https://www.robot-rex.top/2018/10/23/my-blog/"/>
     <id>https://www.robot-rex.top/2018/10/23/my-blog/</id>
     <published>2018-10-23T12:40:11.000Z</published>
-    <updated>2018-10-31T10:59:13.243Z</updated>
+    <updated>2019-09-10T08:54:15.051Z</updated>
     
     <content type="html"><![CDATA[<p>从零开始在hexo+github+阿里云域名下搭建博客</p><h2 id="一、github-page-设置"><a href="#一、github-page-设置" class="headerlink" title="一、github page 设置"></a>一、github page 设置</h2><h3 id="1、rep-setting"><a href="#1、rep-setting" class="headerlink" title="1、rep setting"></a>1、rep setting</h3><p>新建github rep ， 命名为&lt;你的项目名&gt;.github.io</p><h3 id="2、ssh-setting"><a href="#2、ssh-setting" class="headerlink" title="2、ssh setting"></a>2、ssh setting</h3><p>进入用户设置setting，Personal settings下的SSH and GPG keys ，hit New SSH key</p><p>获取当前pc的ssh key，获取方法见<br>粘贴获取到的key至github中</p><h3 id="3、connect-setting"><a href="#3、connect-setting" class="headerlink" title="3、connect setting"></a>3、connect setting</h3><p>打开安装后的git(默认安装)，选择你的本地git仓库(在想放置仓库的位置新建文件夹‘git-test’)</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/your rep.git</span><br></pre></td></tr></table></figure><p>在git bash或终端中添加用户名和邮箱，</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"your name"</span></span><br><span class="line">$ git config --global user.email your email</span><br></pre></td></tr></table></figure><h3 id="4、git-setting"><a href="#4、git-setting" class="headerlink" title="4、git setting"></a>4、git setting</h3><p>在项目目录下进行一下操作即可提交代码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ git add .</span><br><span class="line">$ git status <span class="comment">#(查看修改的地方)</span></span><br><span class="line"></span><br><span class="line">$ git commit -m <span class="string">"your information about commit"</span> <span class="comment">#</span></span><br><span class="line">(必须添加说明)</span><br><span class="line">$ git push -u origin master （<span class="comment">#first push with '-u'）</span></span><br></pre></td></tr></table></figure><h3 id="5、Domain-Name-setting"><a href="#5、Domain-Name-setting" class="headerlink" title="5、Domain Name setting"></a>5、Domain Name setting</h3><p>在阿里云注册域名，根据自己要求选择套餐</p><p>在域名控制台中选择域名解析，DNMA-www-10min-your rep’s name(e.g. robot-github.github.io)</p><p>完成后打开github在项目setting中修改Github Pages中的Custom domain，添加你的域名并save</p><p>完成后关闭网页，此时已经可以通过自己的域名打开网页了，网页模板为新建github page rep时默认的主题</p><h2 id="二、hexo配置"><a href="#二、hexo配置" class="headerlink" title="二、hexo配置"></a>二、hexo配置</h2><h3 id="1、hexo-install"><a href="#1、hexo-install" class="headerlink" title="1、hexo install"></a>1、hexo install</h3><p>hexo安装需要git和node.js，git一般ubuntu默认安装，windows下在前文已经安装完毕，则是需要安装Node.js，官方下载及教程如下：</p><p>官方下载地址：<a href="https://nodejs.org/download/" target="_blank" rel="noopener">下载Node.js</a></p><p>官方安装教程：<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">安装Node.js</a></p><p>完成nodejs安装之后即可以安装hexo</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br><span class="line">$ <span class="built_in">cd</span> git-test  <span class="comment">#也即前文设置的文件夹目录下</span></span><br><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br><span class="line">$ hexo g  </span><br><span class="line">$ hexo s <span class="comment">#可以在http://localhost:4000/ 查看</span></span><br></pre></td></tr></table></figure><p>hexo g 即hexo generate ，运行此命令会生成静态文件，在public文件夹中</p><p>hexo s 则会启动本地web服务，类似sublime的预览</p><p>More info: <a href="https://hexo.io/docs.html" target="_blank" rel="noopener">官方文档</a></p><h3 id="2、部署hexo到github-page"><a href="#2、部署hexo到github-page" class="headerlink" title="2、部署hexo到github page"></a>2、部署hexo到github page</h3><p>并没有使用deploy部署，参考<a href="https://segmentfault.com/a/1190000004947261" target="_blank" rel="noopener">手把手…</a>博客中的做法使用git命令行部署，避免莫名其妙的问题</p><p>具体做法如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/your rep.git .deploy/your rep</span><br><span class="line">$ hexo g</span><br><span class="line">$ cp -r pblic/* .deploy/your rep</span><br><span class="line">$ <span class="built_in">cd</span> .deploy/your rep</span><br><span class="line">$ <span class="comment">#一、4 git setting</span></span><br></pre></td></tr></table></figure><p>提交完成之后即可打开购买的域名，查看网页了</p><p>其余具体的博客撰写查看<a href="https://hexo.io/docs.html" target="_blank" rel="noopener">官方文档</a>即可</p>]]></content>
     
@@ -326,10 +203,11 @@
     
     </summary>
     
-      <category term="about blog" scheme="https://www.robot-rex.top/categories/about-blog/"/>
+    
+      <category term="blog" scheme="https://www.robot-rex.top/categories/blog/"/>
     
     
-      <category term="persinal blog" scheme="https://www.robot-rex.top/tags/persinal-blog/"/>
+      <category term="hexo" scheme="https://www.robot-rex.top/tags/hexo/"/>
     
   </entry>
   
