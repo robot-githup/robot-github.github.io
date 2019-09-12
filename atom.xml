@@ -47,9 +47,9 @@
     <link href="https://www.robot-rex.top/2019/04/24/Chapter-Moment/"/>
     <id>https://www.robot-rex.top/2019/04/24/Chapter-Moment/</id>
     <published>2019-04-24T11:11:28.000Z</published>
-    <updated>2019-09-10T08:50:27.376Z</updated>
+    <updated>2019-09-12T07:42:19.389Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="工具准备"><a href="#工具准备" class="headerlink" title="工具准备"></a>工具准备</h2><p>1、 篆刻刀–永字牌，b站苏无相</p><p>2、 篆刻刀法<br>    冲刀、切刀、摆刀</p><p>3、 常用石头<br>    青田石、巴林石、寿山石<br>    石头保存需要上油：橄榄油、润肤油之类</p><p>4、 砂纸、刷子</p><p>5、 相关书籍<br>    篆刻五十讲<br>    篆刻字典<br>    汉印精华</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="工具准备"><a href="#工具准备" class="headerlink" title="工具准备"></a>工具准备</h2><ol><li><p>篆刻刀–永字牌，b站苏无相</p></li><li><p>篆刻刀法<br> 冲刀、切刀、摆刀</p></li><li><p>常用石头<br> 青田石、巴林石、寿山石<br> 石头保存需要上油：橄榄油、润肤油之类</p></li><li><p>砂纸、刷子</p></li><li><p>相关书籍<br> 篆刻五十讲<br> 篆刻字典<br> 汉印精华</p></li></ol>]]></content>
     
     <summary type="html">
     
@@ -57,6 +57,8 @@
     
     </summary>
     
+    
+      <category term="hoby" scheme="https://www.robot-rex.top/categories/hoby/"/>
     
     
       <category term="life" scheme="https://www.robot-rex.top/tags/life/"/>
@@ -93,7 +95,7 @@
     <link href="https://www.robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/"/>
     <id>https://www.robot-rex.top/2018/10/26/Video-Capture-with-Kinect-v1/</id>
     <published>2018-10-26T07:23:06.000Z</published>
-    <updated>2019-09-10T08:48:43.491Z</updated>
+    <updated>2019-09-10T09:08:17.891Z</updated>
     
     <content type="html"><![CDATA[<p>最近在跑离线ORBSLAM2，需要本地数据集。 手头靠谱点的相机暂时只有Kinect，还是一代。<br>因此基本方法就是使用kinect去截取每帧图片，保存到本地。<br>开源驱动libfreenect刚好提供了这一工具，驱动方式便选择libfreenect了。 </p><a id="more"></a><h2 id="start"><a href="#start" class="headerlink" title="start"></a>start</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/OpenKinect/libfreenect</span><br><span class="line">$ <span class="built_in">cd</span> libfreenect</span><br><span class="line">$ mkdir build</span><br><span class="line">$ <span class="built_in">cd</span> build</span><br><span class="line">$ cmake .. </span><br><span class="line">$ make</span><br></pre></td></tr></table></figure><p>以上则是编译libfreenect的过程，README.md文件中也有相同的说明。</p><h2 id="record"><a href="#record" class="headerlink" title="record"></a>record</h2><p>编译完成之后其实就可以开始图片数据集采集了，在libfreenect下build/bin文件夹中可以找到fakenect-record二进制执行文件。运行之，得到提示</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">record [-h] [-ffmpeg] [-ffmpeg-opts &lt;option&gt;] &lt;target basename&gt;</span><br></pre></td></tr></table></figure><p>对于任务要求，我们只需要设置basename参数，也即是存放图片数据集的本地目录。</p><p>重新运行fakenect-record，即可在所选的路径下找到截取的一帧帧图片。</p>]]></content>
     
@@ -104,12 +106,12 @@
     </summary>
     
     
-      <category term="Ros" scheme="https://www.robot-rex.top/categories/Ros/"/>
+      <category term="tools" scheme="https://www.robot-rex.top/categories/tools/"/>
     
-    
-      <category term="ORBSLAM2" scheme="https://www.robot-rex.top/tags/ORBSLAM2/"/>
     
       <category term="Kinect" scheme="https://www.robot-rex.top/tags/Kinect/"/>
+    
+      <category term="ORBSLAM2" scheme="https://www.robot-rex.top/tags/ORBSLAM2/"/>
     
   </entry>
   
@@ -118,7 +120,7 @@
     <link href="https://www.robot-rex.top/2018/10/25/Information-recorded/"/>
     <id>https://www.robot-rex.top/2018/10/25/Information-recorded/</id>
     <published>2018-10-25T10:45:08.000Z</published>
-    <updated>2019-09-10T08:53:57.623Z</updated>
+    <updated>2019-09-10T09:08:32.467Z</updated>
     
     <content type="html"><![CDATA[<p>1、若遇电机堵转或启动力矩不足，在确认电机完好的情况下，一般考虑霍尔线接错的情况，其他接线可参照5015a电机说明书；<br>2、编码器接线一般红色线接vcc，黑色线为ov线接地，白色和绿色线为信号输出线；<br>3、声明变量即定义需要在执行函数之前；<br>4、树莓派直接开机创建ap热点，提供master连接；<br>5、交换串口名称，现使用为/ttyAMA0;<br>6、有中断则都在中断中处理，若不设置中断处理则可以考虑在任务中处理，尽量不在存在中断处理函数的情况下在任务或主函数中进行读写位操作，以防两者冲突；<br>7、输出高低电平使用推挽输出，0v和3.3v，用来控制电机正反转和急停；<br>8、ucos与usart串口存在冲突，函数使用初始化尽量在ucos初始化之前声明；<br>9、编码器的延时需要符合自己工程的需求；<br>10、占空比13%时，延时900us，得到编码器差值为6，500us时差值为3或4；<br>11、Microsoft C++ 异常: 内存位置 0x002af444 处的 cv::Exception<br>此处为当图像输入路径不准确时所发生的问题，需要/而不是\；<br>12、ucos下打印float会失败，因此采用求小数的方法直接打印int类型的数；<br>13、编码器线数要乘以4才是一圈的脉冲数，为1600脉冲；<br>14、ORBSlam下编译时会有一些程序需要添加#include&lt;unistd.h&gt;，以防编译失败，同时将不需要的双目和数据集删除时，需要注意在CmakeList.txt中删除对应的语句；<br>15、红正黑负，褐正白负；<br>16、keyboard速度无法控制时，有两种方案，1为直接remap速度给twist_mux下的cmd_vel，2为在mux下增加相应的话题及其优先级，方法2未成功，直接使用方法1为解决方案；<br>17、谷歌地图经纬度数据，31.4854;120.2701   ublox gps测量数据31.4867;120.2653;<br>18、robot_localization包的设置：<br>参数two_d_mode  EKFFA定位节点和UKFFL定位节点均采用三维全方位运动模型。如果此参数设置为true，则不会在状态估计中使用3D信息。如果您在平面环境中操作，并且希望忽略可能由例如IMU检测到的地面小变化的影响，请使用此选项。如果未指定，默认为false。<br>参数odom0_queue_size 如果我们有很高频率的数据流或者正在使用低频参数运行，则需要修改此参数以融合更多变量。<br>参数odom0_differential  当用两个传感器测量一个姿态变量时，可能会出现两个传感器报告它们的协方差的情况。这会导致滤波器在它们到达时在每个测量之间快速地来回跳动。在这些情况下，通常有意义的是(a)校正测量协方差，或者(b)如果速度也由一个传感器测量，则让一个传感器测量姿态，另一个传感器测量速度。然而，做（a）或（b）并不总是可行的，因此我们暴露微分参数。当启用差分模式时，通过微分绝对姿态测量，将所有绝对姿态数据转换为速度数据。然后这些速度像平常一样集成。注意：这仅适用于提供姿态测量的传感器；对于扭转测量将差分设置为真没有效果。<br>19、内网穿透完成，实现真实远程，缺点是传输速率较低，毕竟免费嘛<br>具体方法是，注册好nat ngrokc账号之后，购买通道进行设置，选择tcp协议，本地ip为主机在局域网中的ip，端口选常用ssh端口22，复制对应的隧道编码后在主机下运行./natapp +编码串 即可在终端中得到分配的远程服务器端口号，在远程主机的ssh工具中实现真实远程操控。<br>20、kinect驱动选择OPENKINECT，apt install libfreenect之后github下freenect_stack、rgb_launch，进行工程下编译，成功。</p><p>21、qt开发，首先安装qt和ros的相关包，ros-distro-qt,并安装好相应的cmake编译器，导入ros工程包到qt中<br>其过程中出现找不到catkin package等包，因此卸载后选择ROS Qt Creator Plug-in教程进行安装，以便之后的编译。<br>出现问题，编译失败，因此选择按照创客制造教程进行安装。<br>再次失败，按照官方教程 进行安装，<br><a href="https://ros-industrial.github.io/ros_qtc_plugin/Hpw-to-install-Users.html" target="_blank" rel="noopener">https://ros-industrial.github.io/ros_qtc_plugin/Hpw-to-install-Users.html</a>.<br>New project之后的ros workspace进行导入，选择catkin_ws目录，进行build。<br>22、catkin_ws_dy编译出现错误  move_base、bullet（lib）、sdl(lib 1.2)、sdl-image、navigation_msgs、ros_control、orocos-bfl (robot_pose_ekf)、tf2_geometry_msgs ros-kinetic-geometry2、eigen3 /usr/local/include /usr/include、realtime tools、permission denied、pingfang_hardware.h realtime<br>    编译ros_controller出现错误，缺失four_wheel_steering_msgs 使用ros package找出git来源，继续编译出现urdf_geometry_parser缺失，git clone 找出下载后编译，缺失control toolbox ，均在ros-controls项目下找到包下载后去编译，编译再次失败，缺失control_manager，添加之，接下来基本都是这种问题，添加完全路径即可<br>    运行pingfang_base缺失imu_tools、robot_localization，编译robot-localization时缺失geometry-msgs、uuid-msgs<br>    编译之后啊，base.launch由出现bug，缺失interactive-marker-teist-server、twist-mux</p>]]></content>
     
@@ -128,6 +130,8 @@
     
     </summary>
     
+    
+      <category term="ros" scheme="https://www.robot-rex.top/categories/ros/"/>
     
     
       <category term="ros" scheme="https://www.robot-rex.top/tags/ros/"/>
